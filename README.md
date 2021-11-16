@@ -12,17 +12,17 @@ In present market, most of companies have a mobile presence which is an app. Som
 ## Data collection and description
 The customer's app behaviour data consist of two csv files obtained from [SuperDataScience](https://www.superdatascience.com/courses) courses which also available on internet. The data for this project are manufactured fields based on trends found in real world case studies. The fields describe what companies usually track from their user, and the distribution are based on observed distributions in real world analysis. The appdata10.csv dataset provide us some attributes which are:
 * *user* -> the user id
-* first_open -> the day the user first open the app, when the user join, have time stamp
-* dayofweek -> range 1-7, monday-sunday
-* hour -> 24hr based 
-* age -> the user age 
-* screen_list -> describe every screen name that user have visited in the first 24 hrs
-* numscreens -> basically len(screen_list), total screen list visited
-* minigame -> this app has a minigame, 1 - user play the game in first 24 hrs, 0 - not play it
-* used_premium_feature - 1 - if the user used any premium features of free-trial, 0 - never used
-* enrolled -> 1 - the user ended up subscribed to the premium/pro version, 0 - they dont ended up subscribed
-* enrolled_date -> the date they subscribed/enrolled with time stamp
-* liked -> 1 - if the user any particular feature, 0 - if doesn't
+* *first_open* -> the day the user first open the app, when the user join, have time stamp
+* *dayofweek* -> range 1-7, monday-sunday
+* *hour* -> 24hr based 
+* *age* -> the user age 
+* *screen_list* -> describe every screen name that user have visited in the first 24 hrs
+* *numscreens* -> basically len(screen_list), total screen list visited
+* *minigame* -> this app has a minigame, 1 - user play the game in first 24 hrs, 0 - not play it
+* *used_premium_feature* - 1 - if the user used any premium features of free-trial, 0 - never used
+* *enrolled* -> 1 - the user ended up subscribed to the premium/pro version, 0 - they dont ended up subscribed
+* *enrolled_date* -> the date they subscribed/enrolled with time stamp
+* *liked* -> 1 - if the user any particular feature, 0 - if doesn't
 
 While the top_screens.csv dataset provide a list of top visited screen from user.
 
