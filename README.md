@@ -37,7 +37,7 @@ Standard data cleaning framework is applied such as null filtering, correcting d
 Some interesting insight can be drawn from this bar chart which are:
 * More hour spend on app will likely make user not subscribe.
 * Older people less likely to subscribe.
-* More premium features used will tend make user less likely to subscribed (red flag for the pro features)
+* More premium features used will tend make user less likely to subscribed (red flag for the pro features).
 
 ![Correlation bar](https://github.com/aimanraz/fn-tech-logireg/blob/main/img/correlation_bar.png)
 
