@@ -1,8 +1,8 @@
 # Directing Customers to Subscription Through App Behavior Analysis
-In present market, most of companies have a mobile presence which is an app. Some companies provide free products/services in their mobile apps in an attempt to transition customers to a paid/pro membership. For this case study we will categorize 3 things:
-* Market or the target audience, this refers to the users who installed and also used the company's mobile app.
-* Product/Paid membership. It often provide enhanced version of the free products already given for free, with the new features.
-* Goal, the objective of this analysis is to use machine learning to predict which users will not subsribe to the paid membership, so that marketing department increase the effort to go into trying "persuade/convert" them to paid or pro users.
+In the present market, most companies have a mobile presence which is an app. Some companies provide free products/services in their mobile apps to transition customers to a paid/pro membership. For this case study, we will categorize three things:
+* Market or the target audience refers to the users who installed and also used the company's mobile app.
+* Product/Paid membership. It often provides an enhanced version of the free products already given for free, with the new features.
+* Goal, the objective of this analysis is to use machine learning to predict which users will not subscribe to the paid membership so that the marketing department increases the effort to try "persuade/convert" them to paid or pro users.
 
 ## Code and Resources Used 
 **Python Version:** 3.8++
@@ -34,10 +34,10 @@ Standard data cleaning framework is applied such as null filtering, correcting d
 ![Bar overall](https://github.com/aimanraz/fn-tech-logireg/blob/main/img/histogram_overall.png)
 
 ### Correlation Bar Chart with response
-Some interesting insight can be drawn from this bar chart which are:
-* More hour spend on app will likely make user not subscribe.
-* Older people less likely to subscribe.
-* More premium features used will tend make user less likely to subscribed (red flag for the pro features).
+Some fascinating insight can be drawn from this bar chart which are:
+* More hours spent on the app will likely make the user not subscribe.
+* Older people are less likely to subscribe.
+* More premium features used will make users less likely to subscribe (red flag for the pro features).
 
 ![Correlation bar](https://github.com/aimanraz/fn-tech-logireg/blob/main/img/correlation_bar.png)
 
@@ -51,6 +51,6 @@ By applying 10-fold cross validation, the model only able to achieve the final a
 ![]()
 
 ## Conclusion
-The model were successfully developed. It can be used to further validated the the results by running th prediction on daily new installs, and see whther the accuracy is consistent or not. From there, the company can narrow the marketing efforts only to users 'unlikely' to subscribe.
+The model was successfully developed. It can be used to further validate the results by running the prediction on daily new installs and seeing whether the accuracy is consistent. From there, the company can narrow the marketing efforts only to users 'unlikely' to subscribe.
 
 let the data drive you...and beyond.
