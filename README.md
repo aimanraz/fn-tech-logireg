@@ -11,7 +11,7 @@ In present market, most of companies have a mobile presence which is an app. Som
 
 ## Data collection and description
 The customer's app behaviour data consist of two csv files obtained from [SuperDataScience](https://www.superdatascience.com/courses) courses which also available on internet. The data for this project are manufactured fields based on trends found in real world case studies. The fields describe what companies usually track from their user, and the distribution are based on observed distributions in real world analysis. The appdata10.csv dataset provide us some attributes which are:
-* user -> the user id
+* *user* -> the user id
 * first_open -> the day the user first open the app, when the user join, have time stamp
 * dayofweek -> range 1-7, monday-sunday
 * hour -> 24hr based 
