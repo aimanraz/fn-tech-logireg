@@ -31,16 +31,25 @@ Standard data cleaning framework is applied such as null filtering, correcting d
 
 ### Histograms of Numerical Columns
 
+![Bar overall](https://github.com/aimanraz/fn-tech-logireg/blob/main/img/histogram_overall.png)
+
+### Correlation Bar Chart with response
+Some interesting insight can be drawn from this bar chart which are:
+* More hour spend on app will likely make user not subscribe.
+* Older people less likely to subscribe.
+* More premium features used will tend make user less likgely to subscribed (red flag for the pro features)
+
+![Correlation bar](https://github.com/aimanraz/fn-tech-logireg/blob/main/img/correlation_bar.png)
+
+### Correlation matrix
+
+![Correlation matrix](https://github.com/aimanraz/fn-tech-logireg/blob/main/img/correlation_heatmap.png)
+
+## Model Performance
+By applying 10-fold cross validation, the model only able to achieve the final accuracy of 77.30 % with a standard deviation of +/- 0.012.
+
 ![]()
 
-
-## Model performance and Conclusion
-
-
-![Prediction]()
-
-* Train accuracy:  %
-* Test accuracy:  %
-
+## Conclusion
 
 let the data drive you...and beyond.
