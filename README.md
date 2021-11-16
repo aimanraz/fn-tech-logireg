@@ -51,5 +51,6 @@ By applying 10-fold cross validation, the model only able to achieve the final a
 ![]()
 
 ## Conclusion
+The model were successfully developed. It can be used to further validated the the results by running th prediction on daily new installs, and see whther the accuracy is consistent or not. From there, the company can narrow the marketing efforts only to users 'unlikely' to subscribe.
 
 let the data drive you...and beyond.
